@@ -10,7 +10,6 @@ html {
   top: 4rem; /* To offset for fixed header. */
 }
 
-/* Header section */
 
 header {
   display: flex;
@@ -45,4 +44,57 @@ nav span {
 nav a {
   text-decoration: none;
   color: #4a4a4a;
+}
+
+/* Banner section */
+
+.main-banner {
+  display: flex;
+  padding: 2rem 1.5rem;
+  background-color: #d8d8d8;
+}
+
+.hero-image {
+  max-width: 60%;
+}
+
+.hero-image img {
+  width: 100%;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1.5rem;
+}
+
+.big-cta {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #4a4a4a;
+  padding: 0.5rem 3rem;
+  max-width: 60%;
+  margin-top: 1rem;
+}
+
+/* Featured news section */
+
+.featured-news {
+  display: flex;
+}
+
+.lead-article {
+  max-width: 60%;
+  border: solid;
+  padding: 2rem 1.5rem;
+}
+
+.lead-article img {
+  width: 100%;
+}
+
+.content-item {
+  display: flex;
 }

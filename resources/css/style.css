@@ -10,6 +10,16 @@ html {
   top: 4rem; /* To offset for fixed header. */
 }
 
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Header section */
 
 header {
   display: flex;
@@ -50,22 +60,20 @@ nav a {
 
 .main-banner {
   display: flex;
-  padding: 2rem 1.5rem;
   background-color: #d8d8d8;
 }
 
-.hero-image {
+.hero {
   max-width: 60%;
+  padding: 2rem 1.5rem;
 }
 
-.hero-image img {
-  width: 100%;
-}
 
 .text-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  max-width: 40%;
   margin-left: 1.5rem;
 }
 
@@ -87,14 +95,53 @@ nav a {
 
 .lead-article {
   max-width: 60%;
-  border: solid;
   padding: 2rem 1.5rem;
 }
 
-.lead-article img {
-  width: 100%;
+.featured-list {
+  max-width: 40%;
+  margin-top: 2rem;
+  border-left: 1px solid #d8d8d8;
 }
 
 .content-item {
   display: flex;
+  padding: 1rem 1rem;
+}
+
+.thumbnail {
+  max-width: 35%;
+  height: auto;
+}
+
+.text-content {
+  padding-left: 1rem;
+}
+
+/* Start learning section */
+.learning {
+  background-color: #d8d8d8;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.section-title h2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 4.5rem;
+  margin-right: 4.5rem;
+}
+
+.course-item {
+  max-width: 25%;
+  background-color: white;
+  margin: 1rem 1rem;
 }
